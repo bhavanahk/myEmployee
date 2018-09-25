@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="My employee" max_length="40" name="x_271991_myemploye_my_employee" type="collection">
+        <element choice="1" label="Blood Group" max_length="40" name="blood_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="A negative" value="-A"/>
+                <element inactive_on_update="false" label="A positive" value="+A"/>
+                <element inactive_on_update="false" label="AB negative" value="-AB"/>
+                <element inactive_on_update="false" label="AB positive" value="+AB"/>
+                <element inactive_on_update="false" label="B negative" value="-B"/>
+                <element inactive_on_update="false" label="B positive" value="+B"/>
+                <element inactive_on_update="false" label="O negative" value="-O"/>
+                <element inactive_on_update="false" label="O positive" value="+O"/>
+            </choice>
+        </element>
+        <element label="City" max_length="32" name="city" reference="x_271991_myemploye_country_details" reference_qual="citySTARTSWITH^EQ" reference_qual_condition="citySTARTSWITH^EQ" type="reference"/>
+        <element label="Country" max_length="32" name="country" reference="cmn_location" reference_qual="countrySTARTSWITH^EQ" reference_qual_condition="countrySTARTSWITH^EQ" type="reference"/>
+        <element label="Date of Birth" mandatory="true" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element label="Email" mandatory="true" max_length="50" name="email" type="string"/>
+        <element choice="1" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" value="female"/>
+                <element inactive_on_update="false" label="Male" value="male"/>
+                <element inactive_on_update="false" label="Other" value="other"/>
+            </choice>
+        </element>
+        <element label="Manager" max_length="40" name="manager" type="boolean"/>
+        <element display="true" label="Name" mandatory="true" max_length="50" name="name" type="string"/>
+        <element label="Notes about me" max_length="1500" name="notes_about_me" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Employee Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Code" max_length="40" name="project_code" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Name" max_length="40" name="project_name" type="string"/>
+        <element label="Region" max_length="50" name="region" type="string"/>
+        <element label="State" max_length="32" name="state" reference="x_271991_myemploye_country_details" reference_qual="admin_nameSTARTSWITH^EQ" reference_qual_condition="admin_nameSTARTSWITH^EQ" type="reference"/>
+        <index name="index">
+            <element name="country"/>
+        </index>
+        <index name="index2">
+            <element name="city"/>
+        </index>
+        <index name="index3">
+            <element name="state"/>
+        </index>
+    </element>
+</database>

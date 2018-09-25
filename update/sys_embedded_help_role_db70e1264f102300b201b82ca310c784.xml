@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_271991_myemploye.user" name="x_271991_myemploye.user">5b70e1264f102300b201b82ca310c782</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-05 06:18:13</sys_created_on>
+        <sys_id>db70e1264f102300b201b82ca310c784</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5b70e1264f102300b201b82ca310c782</sys_name>
+        <sys_package display_value="MyEmployee" source="x_271991_myemploye">483021264f102300b201b82ca310c7b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyEmployee">483021264f102300b201b82ca310c7b8</sys_scope>
+        <sys_update_name>sys_embedded_help_role_db70e1264f102300b201b82ca310c784</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-05 06:18:13</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

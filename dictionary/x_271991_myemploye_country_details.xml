@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Country Details" max_length="40" name="x_271991_myemploye_country_details" sizeclass="10000" type="collection">
+        <element label="Admin name" max_length="40" name="admin_name" type="string"/>
+        <element label="city" max_length="40" name="city" type="string"/>
+        <element label="City ascii" max_length="40" name="city_ascii" type="string"/>
+        <element display="true" label="country" max_length="40" name="country" type="string"/>
+        <element label="iso2" max_length="40" name="iso2" type="string"/>
+        <element label="iso3" max_length="40" name="iso3" type="string"/>
+        <element label="lat" max_length="40" name="lat" type="float"/>
+        <element label="lng" max_length="40" name="lng" type="float"/>
+    </element>
+</database>

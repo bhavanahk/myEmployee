@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 09:34:01</sys_created_on>
+        <sys_id>86d6cde84f602300b201b82ca310c79b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_271991_myemploye_country_details.x_271991_myemploye.user</sys_name>
+        <sys_package display_value="MyEmployee" source="x_271991_myemploye">483021264f102300b201b82ca310c7b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyEmployee">483021264f102300b201b82ca310c7b8</sys_scope>
+        <sys_security_acl display_value="x_271991_myemploye_country_details">42d6cde84f602300b201b82ca310c78c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_86d6cde84f602300b201b82ca310c79b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 09:34:01</sys_updated_on>
+        <sys_user_role display_value="x_271991_myemploye.user" name="x_271991_myemploye.user">5b70e1264f102300b201b82ca310c782</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

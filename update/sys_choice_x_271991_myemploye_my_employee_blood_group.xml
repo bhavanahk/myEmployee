@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="blood_group" table="x_271991_myemploye_my_employee" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>blood_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>A positive</label>
+            <language>en</language>
+            <name>x_271991_myemploye_my_employee</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-11 07:17:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff77aca44f202300b201b82ca310c722</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-11 07:17:30</sys_updated_on>
+            <value>+A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>blood_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AB positive</label>
+            <language>en</language>
+            <name>x_271991_myemploye_my_employee</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-11 07:18:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0cd764284f202300b201b82ca310c7ba</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-11 07:18:46</sys_updated_on>
+            <value>+AB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>blood_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B positive</label>
+            <language>en</language>
+            <name>x_271991_myemploye_my_employee</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-11 07:18:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0a7a0284f202300b201b82ca310c7f5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-11 07:18:08</sys_updated_on>
+            <value>+B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>blood_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>O positive</label>
+            <language>en</language>
+            <name>x_271991_myemploye_my_employee</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-11 07:16:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c65724e44f202300b201b82ca310c7fb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-11 07:16:54</sys_updated_on>
+            <value>+O</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>blood_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>A negative</label>
+            <language>en</language>
+            <name>x_271991_myemploye_my_employee</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-11 07:17:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af67a4e44f202300b201b82ca310c756</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-11 07:17:09</sys_updated_on>
+            <value>-A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>blood_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AB negative</label>
+            <language>en</language>
+            <name>x_271991_myemploye_my_employee</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-11 07:18:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52b72ce44f202300b201b82ca310c7d7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-11 07:18:31</sys_updated_on>
+            <value>-AB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>blood_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>B negative</label>
+            <language>en</language>
+            <name>x_271991_myemploye_my_employee</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-11 07:17:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>059724284f202300b201b82ca310c780</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-11 07:17:47</sys_updated_on>
+            <value>-B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>blood_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>O negative</label>
+            <language>en</language>
+            <name>x_271991_myemploye_my_employee</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-11 07:16:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b27ece44f202300b201b82ca310c707</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-11 07:16:33</sys_updated_on>
+            <value>-O</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>blood_group</element>
+            <name>x_271991_myemploye_my_employee</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-11 07:16:23</sys_created_on>
+            <sys_id>7157ece44f202300b201b82ca310c743</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>blood_group</sys_name>
+            <sys_package display_value="MyEmployee" source="x_271991_myemploye">483021264f102300b201b82ca310c7b8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MyEmployee">483021264f102300b201b82ca310c7b8</sys_scope>
+            <sys_update_name>sys_choice_x_271991_myemploye_my_employee_blood_group</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-11 07:16:23</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
